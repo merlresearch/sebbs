@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: tests/dcase2023task4a/baseline2_run1_scores/*
+Copyright: 2023, Janek Ebbers, Romain Serizel, Francesca Ronchini, Florian Angulo, David Perera, Slim Essid
+License: CC-BY-4.0
+
+Files: tests/dcase2023task4a/metadata/*
+Copyright: 2021, Francesca Ronchini, Nicolas Turpault, Romain Serizel, Scott Wisdom, Hakan Erdogan, John Hershey, Justin Salamon, Prem Seetharaman, Eduardo Fonseca, Samuele Cornell, Daniel P. W. Ellis
+License: CC-BY-4.0
