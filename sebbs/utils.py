@@ -22,7 +22,10 @@ def sed_scores_from_sebbs(sebbs, sound_classes, audio_duration=None, fill_value=
     if isinstance(sebbs, dict):
         return {
             key: sed_scores_from_sebbs(
-                preds_for_key, sound_classes, audio_duration[key] if audio_duration is not None else None
+                preds_for_key,
+                sound_classes,
+                audio_duration[key] if audio_duration is not None else None,
+                fill_value=fill_value,
             )
             for key, preds_for_key in sebbs.items()
         }
